@@ -28,7 +28,6 @@ The `transcribeAudio function` in `index.ts` configures the Speech-to-Text API r
 - `sampleRateHertz`: The sample rate of the audio file in Hertz
 - `languageCode`: The language code of the audio (e.g., 'en-US' for English)
 - `maxAlternatives`: The maximum number of alternative transcriptions to return
-- `enableWordTimeOffsets`: Whether to enable word-level time offset information
-- `enableWordConfidence`: Whether to enable word-level confidence scores
-- `enableAutomaticPunctuation`: Whether to enable automatic punctuation
-  You can modify these options according to your requirements.
+- `enableWordTimeOffsets`: When enabled, the API will include the start and end times for each word in the transcribed text, allowing you to map the words back to the corresponding audio segments.
+- `enableWordConfidence`: If enabled, API will include a confidence score for each word representing an estimation of how likely the transcription is correct.
+- `enableAutomaticPunctuation`: Enable API to automatically insert punctuation without requiring explicit dictation.
