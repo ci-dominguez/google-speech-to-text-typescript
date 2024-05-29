@@ -14,10 +14,11 @@ Uses some cool tools 🛠️:
 
 ## Getting Started
 
-1. Replace `gc-auth.json` with your own service account key
-2. Place your audio file in the root of the project, or create your directory.
-3. Update the filePath variable with your audio file's name.
-4. Run the application in the terminal with `npm run start:dev`
+1. `npm install` to install all dependencies
+2. Replace `gc-auth.json` with your own service account key
+3. Place your audio file in the root of the project, or create your directory.
+4. Update the filePath variable with your audio file's name.
+5. Run the application in the terminal with `npm run start:dev`
 
 ## Configuration
 
